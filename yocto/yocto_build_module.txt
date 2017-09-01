@@ -1,0 +1,10 @@
+以编译yocto Linux kernel为例：
+1. bitbake linux-yocto -c compile -f
+2. bitbake linux-yocto -c deploy
+
+解释：
+linux-yocto为你需要编译的部分，-c后面是命令，compile表示编译，deploy表示部署模块到image。
+
+Alternatively, you can run the deploy command to place the kernel image in the tmp/deploy/images directory:
+
+	$ bitbake linux-yocto -c deploy

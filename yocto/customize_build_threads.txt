@@ -1,0 +1,3 @@
+Prior to executing BitBake, you should take advantage of available 
+parallel thread execution on your build host by setting the 
+BB_NUMBER_THREADS variable in your project's local.conf configuration file.

@@ -1,0 +1,2 @@
+If the first recipe is named a_1.1.bb, then the PN variable will be set to ¡°a¡±, 
+and the PV variable will be set to 1.1.
