@@ -1,0 +1,6 @@
+1.创建一个工程目录，例如，px3se_sdk；
+
+2.进入第一步创建的目录，运行如下命令：
+repo init --repo-url=git@192.168.3.100:Embedded_Platform_Group/repo.git -u git@192.168.3.100:Embedded_Platform_Group/manifest.git -m px3se_linux_sdk.xml
+
+3.运行repo sync，即可获取工程。
